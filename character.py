@@ -43,10 +43,10 @@ if character2_level > character1_level and character2_level > character3_level:
          print(character1_name)
          
 if character3_level > character1_level and character3_level > character2_level:
-        print(character1_name)
-        if character2_level > character3_level:
+        print(character3_name)
+        if character2_level > character1_level:
             print(character2_name)
-            print(character3_name)
+            print(character1_name)
         else:
-         print(character3_name)
+         print(character1_name)
          print(character2_name)
